@@ -56,15 +56,3 @@ def heapSort(arr, matrix):
         for z in range(1, len(matrix)):
             (matrix[z][i], matrix[z][0]) = (matrix[z][0], matrix[z][i])
         heapify(arr, i, 0, matrix)
- 
- 
-# Driver code to test above
- 
-""" arr = [12, 11, 13, 5, 6, 7, ]
-heapSort(arr)
-n = len(arr)
-print('Sorted array is')
-for i in range(n):
-    print(arr[i]) """
- 
-# This code is contributed by Mohit Kumra

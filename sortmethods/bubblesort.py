@@ -14,14 +14,3 @@ def bubble_sort(arr, matrix):
                 # Swap matrix data to match the key array
                 for z in range(1, len(matrix)):
                     (matrix[z][i], matrix[z][i + 1]) = (matrix[z][i + 1], matrix[z][i])
-
-
-# Sample list to be sorted
-""" arr = [39, 12, 18, 85, 72, 10, 2, 18]
-print("Unsorted list is:")
-print(arr)
-
-bubble_sort(arr)
-
-print("Sorted list is:")
-print(arr) """

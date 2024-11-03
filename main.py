@@ -1,6 +1,5 @@
 import sortmethods.bubblesort
 import sortmethods.heapsort
-import sortmethods.mergesort
 import sortmethods.quicksort
 import pandas as pd
 import time
@@ -10,15 +9,12 @@ sys.setrecursionlimit(200000)  # Increase the limit
 
 #read the csv data into a panda dataframe
 df = pd.read_csv('data/Air_Quality_NYC.csv')
-#df = fulldf.head(75000)
-#print(df.columns)
 
 #build a matrix of arrays for sorting
 value = df['Data Value'].tolist()
 type = df['Name'].tolist()
 location = df['Geo Place Name'].tolist()
 timeperiod = df['Time Period'].tolist()
-#age = df['AGE'].tolist()
 matrix = [value, type, location, timeperiod]
 
 size = len(value)
@@ -30,9 +26,7 @@ start_time = time.time()
 sortmethods.heapsort.heapSort(value, matrix)
 print("-- Completed in %s seconds --" % round((time.time() - start_time), 4))
 
-#print(matrix)
-
 #export sorted data into a new csv file
-#sorted_df = pd.DataFrame({'Data Value': value, 'Type': type, 'Location': location, 'Time Period': timeperiod})
-#sorted_df.to_csv('data_sorted/Air_Quality_NYC.csv', index=True)
+sorted_df = pd.DataFrame({'Data Value': value, 'Type': type, 'Location': location, 'Time Period': timeperiod})
+sorted_df.to_csv('data_sorted/Air_Quality_NYC.csv', index=True)
 
