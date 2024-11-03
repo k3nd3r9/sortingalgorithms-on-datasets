@@ -1,0 +1,47 @@
+-- Quick Sort of Electric Vehicle Data of Size 25000 ---
+-- Completed in 21.5227 seconds --
+
+-- Quick Sort of Electric Vehicle Data of Size 50000 ---
+-- Completed in 86.5205 seconds --
+
+-- Quick Sort of Electric Vehicle Data of Size 75000 ---
+-- Completed in 201.6826 seconds --
+
+-- Quick sort of Electric Vehicle Data of Size 210165 ---
+-- Completed in 1535.8089 seconds --
+
+-- Bubble Sort of Electric Vehicle Data of Size 25000 ---
+-- Completed in 21.6543 seconds --
+
+-- Bubble Sort of Electric Vehicle Data of Size 50000 ---
+-- Completed in 82.7427 seconds --
+
+-- Bubble Sort of Electric Vehicle Data of Size 100000 ---
+-- Completed in 321.0502 seconds --
+
+-- Heap sort of Electric Vehicle Data of Size 25000 ---
+-- Completed in 0.0558 seconds --
+
+-- Heap sort of Electric Vehicle Data of Size 50000 ---
+-- Completed in 0.1179 seconds --
+
+-- Heap sort of Electric Vehicle Data of Size 210165 ---
+-- Completed in 0.6545 seconds --
+
+-- Quick sort of Drug Overdose Death Rates Data of Size 6228 ---
+-- Completed in 0.0618 seconds --
+
+-- Bubble sort of Drug Overdose Death Rates Data of Size 6228 ---
+-- Completed in 0.5334 seconds --
+
+-- Heap sort of Drug Overdose Death Rates Data of Size 6228 ---
+-- Completed in 0.0162 seconds --
+
+-- Quick sort of NYC Air Quality Data of Size 18025 ---
+-- Completed in 0.1219 seconds --
+
+-- Bubble sort of NYC Air Quality Data of Size 18025 ---
+-- Completed in 21.5919 seconds --
+
+-- Heap sort of NYC Air Quality Data of Size 18025 ---
+-- Completed in 0.0603 seconds --
